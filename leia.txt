@@ -1,0 +1,104 @@
+passos para execução ========================================================
+
+Passos para executar o front:
+1 - Baixar e instalar o nodejs (18.14.1 LTS) https://nodejs.org/pt-br/
+
+2 - No terminal digitar o comando npm install -g @angular/cli
+	heinrych: ng new my-app ---- escolha a opção CSS
+	heinrych:cd my-app
+	heinrych:ng add @angular/material
+3 - No terminal digitar o comando ng add @angular/material
+ 
+4 - Abrir o projeto no visual studio code e digitar no terminal do vscode
+npm run start
+
+
+Links =======================================================================
+
+http://localhost:8090/api/swagger-ui.html#!/
+http://localhost:8090/api/cliente
+http://localhost:8090/api/animal
+http://localhost:8090/api/historico
+
+
+Cliente ===============================================================
+{
+{
+  "nome": "Joãozinho",
+  "cpf": "12345678901",
+  "telefone": "11999999999",
+  "endereco": "Rua das Flores, 123",
+  "email": "joao.silva@email.com",
+  "senha": "senha123"
+}
+
+{
+  "nome": "Heinrych Matheus",
+  "cpf": "10987654321",
+  "telefone": "1199899552",
+  "endereco": "Rua dos Pássaros, 456",
+  "email": "maria.oliveira@email.com",
+  "senha": "senha456"
+}
+
+{
+  "nome": "Gleycykelly Almeida",
+  "cpf": "10293847561",
+  "telefone": "11988888888",
+  "endereco": "Rua das Árvores, 789",
+  "email": "pedro.almeida.email.com",
+  "senha": "senha789"
+}
+}
+
+Animal ===============================================================
+
+{
+    "nome": "Vinicius",
+    "especie": "Cachorro",
+    "raca": "Pincher",
+    "idade": "10 anos",
+    "endereco": "Rua dos bobos n°0, 000",
+    "descricao": "Max é um cachorro folgado, mas amigavel."
+}
+{
+
+"nome": "Bernadete",
+"especie": "Gato",
+"raca": "Siames",
+"idade": "2 anos",
+"endereco": "Rua das Plantas, 456",
+"descricao": "Mimi é um gato lindo e curioso. Adora caminhar e brincar com objetos pequenos."
+}
+
+{
+"nome": "Santos",
+"especie": "Cachorro",
+"raca": "Golden Retriever",
+"idade": "5 anos",
+"endereco": "Rua dos Ovos, 789",
+"descricao": "Buddy é um cachorro alegre e obediente. Adora correr e nadar, além de ser um ótimo companheiro."
+}
+
+Historico ===============================================================
+
+{
+	"idAnimal": 1,
+	"idCliente": 2,
+	"data": "2022-01-01",
+	"tipoOperacao": "Adoção"
+}
+
+{
+	"idAnimal": 3,
+	"idCliente": 4,
+	"data": "2022-02-01",
+	"tipoOperacao": "Doação"
+}
+
+{
+	"idAnimal": 5,
+	"idCliente": 6,
+	"data": "2022-03-01",
+	"tipoOperacao": "Adoção"
+}
